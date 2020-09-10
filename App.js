@@ -18,8 +18,7 @@ const App: () => React$Node = () => {
       <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
-          contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
+          contentInsetAdjustmentBehavior="automatic">
           <Text>Player View</Text>
           <NodePlayerView 
             style={{ height: 400, width: 300 }}
