@@ -8,10 +8,6 @@ import {
   StatusBar,
 } from 'react-native';
 
-import {
-  Colors,
-} from 'react-native/Libraries/NewAppScreen';
-
 import { NodePlayerView } from 'react-native-nodemediaclient';
 
 const App: () => React$Node = () => {
@@ -39,11 +35,5 @@ const App: () => React$Node = () => {
     </>
   );
 };
-
-const styles = StyleSheet.create({
-  scrollView: {
-    backgroundColor: Colors.lighter,
-  }
-});
 
 export default App;
